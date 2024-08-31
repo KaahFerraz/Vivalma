@@ -484,16 +484,27 @@ hr {
     flex-direction: row;
     gap: 5%;
     padding: 0;
+    text-decoration: none;
+
 }
 .caixa {
     display: flex;
     padding: 0;
+    text-decoration: none;
 }
 
 .coluna {
     flex: 1; /* Cada coluna ocupa uma parte igual do espaço disponível */
     padding: 0;
+    text-decoration: none;
+
 }
+
+li a {
+    text-decoration: none;
+    color: var(--color1);
+}
+
 
 .subtitulo {
     display: flex;
@@ -507,11 +518,14 @@ hr {
 ol {
     list-style: none; /* Remove os números */
     padding: 0;
+    text-decoration: none;
 }
 
 ul {
     list-style: none; /* Remove os números */
     padding: 0; 
+    text-decoration: none;
+
     
 }
 
